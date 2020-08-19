@@ -13,7 +13,7 @@
             $cor = rand(0, 999999);
             $len = rand(0, 100);
             ?>
-            <div style="width: 250px;float:left;margin:20px;background-color:#999;">
+            <div style="width: 1000px;float:left;margin:20px;background-color:#<?php echo $cor; ?>;padding:10px;">
                 <strong><?php echo $noticia['titulo']; ?> </strong><br/>
                 <?php echo substr($noticia['corpo'], 0, $len); ?>
             </div>
